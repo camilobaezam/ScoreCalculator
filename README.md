@@ -27,29 +27,45 @@ Lee palabras desde un archivo de texto (una palabra por línea), calcula el punt
    cd ScoreCalculator
 2. Crea un archivo palabras.txt con una palabra por línea.
 Ejemplo:
+
 HI
+
 DOG
+
 PYTHON
+
 DRUDGERY
+
 ENCYCLOPEDIA
+
 SUPERCALIFRAGILISTICEXPIALIDOCIOUS
 
 ## Uso
 
 Ejecuta el programa: python ScoreCalculator.py
+
 Te pedirá la ruta del archivo de palabras.
+
 Puedes pasar la ruta directamente:python ScoreCalculator.py palabras.txt
 
 Ejemplo de ejecución
+
 Archivo palabras.txt:
+
 HI
+
 DOG
+
 PYTHON
+
 DRUDGERY
+
 ENCYCLOPEDIA
+
 SUPERCALIFRAGILISTICEXPIALIDOCIOUS
 
 Salida:
+
 === ScoreCalculator - Calculador de Puntajes de Palabras ===
 
 Ruta del archivo de palabras: palabras.txt
@@ -60,19 +76,28 @@ Resultados:
 ----------------------------------------
 Palabra                                     Longitud   Puntaje
 ----------------------------------------
+
 HI                                          2          0
+
 DOG                                         3          3
+
 PYTHON                                      6          6
+
 DRUDGERY                                    8          16
+
 ENCYCLOPEDIA                                12         36
+
 SUPERCALIFRAGILISTICEXPIALIDOCIOUS          34         102
 ----------------------------------------
 
 Total de palabras procesadas: 6
+
 Puntaje total acumulado: 163 puntos
+
 Palabra con mayor puntaje: SUPERCALIFRAGILISTICEXPIALIDOCIOUS → 102 puntos
 
 Archivo vacío o solo líneas en blanco
+
 → Mensaje: "No se encontraron palabras válidas."
 
 Notas
